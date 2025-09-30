@@ -1,4 +1,4 @@
-### Black Invisibility Cloak 🔮🪄
+# Black Invisibility Cloak 🔮🪄
 
 Become invisible with just a black cloth!** This OpenCV-powered Python project creates a real-time invisibility effect inspired by Harry Potter's magical cloak.
 
@@ -19,10 +19,11 @@ Ever wanted to disappear like a wizard? This project uses computer vision to det
 
 The algorithm uses HSV color space to detect low-saturation, low-brightness regions (black objects) and cleverly replaces them with the stored background frame.
 
-### Quick Start
+## Quick Start
 
 ### Prerequisites
-```bash
+```
+bash
 pip install opencv-python numpy
 
 Running the Cloak
@@ -48,9 +49,9 @@ Morphological Operations: Opening and closing to reduce noise
 Bitwise Operations: Masking and blending for seamless compositing
 Real-time Processing: Optimized for smooth 30+ FPS performance
 
-### Customization
+## Customization
 Want to detect different colors? Modify the HSV threshold values:
-# For different colors, adjust these ranges
+### For different colors, adjust these ranges
 lower_black = np.array([0, 0, 0])
 upper_black = np.array([180, 255, 40])
 
