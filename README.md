@@ -1,6 +1,6 @@
 # Black Invisibility Cloak 🔮🪄
 
-Become invisible with just a black cloth!** This OpenCV-powered Python project** creates a real-time invisibility effect inspired by Harry Potter's magical cloak.
+Become invisible with just a black cloth! This OpenCV-powered Python project creates a real-time invisibility effect inspired by Harry Potter's magical cloak.
 
 ## What Does It Do ❓
 Ever wanted to disappear like a wizard? This project uses computer vision to detect black-colored objects in your webcam feed and replaces them with a pre-captured background—making anything black appear invisible!
